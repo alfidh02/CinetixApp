@@ -1,0 +1,2 @@
+rootProject.name='CinetixApp'
+include ':app'
