@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">CinetixApp</string>
+    <string name="skip_intro">LEWATI PERKENALAN</string>
+    <string name="continue_intro">LANJUTKAN</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="desc_now_playing">Lebih mudah mengetahui film\nyang sedang tayang</string>
+    <string name="pre_sale">Pre Sale</string>
+    <string name="desc_pre_sale">Tidak khawatir ketinggalan\nupdate film baru</string>
+    <string name="cashless">Cashless</string>
+    <string name="desc_cashless">Gunakan e-wallet untuk\ntransaksi tiket nonton</string>
+    <string name="get_started">MULAI</string>
 </resources>
