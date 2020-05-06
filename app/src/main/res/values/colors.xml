@@ -6,4 +6,6 @@
     <color name="colorSplash">#13153B</color>
     <color name="colorPink">#FF2255</color>
     <color name="colorOldBlue">#292A50</color>
+    <color name="colorGray">#F7F7F7</color>
+    <color name="colorBorder">#565785</color>
 </resources>
