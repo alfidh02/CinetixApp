@@ -1,12 +1,13 @@
-package com.koma.cinetixapp
+package com.koma.cinetixapp.useracc
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.koma.cinetixapp.R
 
-class RegisterPhotoActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_register_photo)
+        setContentView(R.layout.activity_login)
     }
 }

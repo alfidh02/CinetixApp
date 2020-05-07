@@ -1,7 +1,8 @@
-package com.koma.cinetixapp
+package com.koma.cinetixapp.useracc
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.koma.cinetixapp.R
 
 class RegisterActivity : AppCompatActivity() {
 

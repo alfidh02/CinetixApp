@@ -14,9 +14,9 @@
         <activity android:name=".onboarding.PageOneActivity" />
         <activity android:name=".onboarding.PageTwoActivity" />
         <activity android:name=".onboarding.PageThreeActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".RegisterPhotoActivity" />
+        <activity android:name=".useracc.LoginActivity" />
+        <activity android:name=".useracc.RegisterActivity" />
+        <activity android:name=".useracc.RegisterPhotoActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
