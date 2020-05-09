@@ -4,17 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorSplash"
     tools:context=".SplashScreen">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="271dp"
-        android:layout_height="70dp"
-        android:src="@drawable/logo_cinetix"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

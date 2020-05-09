@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorSplash"
-    tools:context=".useracc.LoginActivity">
+    tools:context=".useracc.login.LoginActivity">
 
     <Button
         android:id="@+id/btn_daftar"
@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/et_username"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -112,10 +112,10 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/et_username" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/et_password"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
