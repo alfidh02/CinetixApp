@@ -25,9 +25,10 @@ class PageThreeActivity : AppCompatActivity() {
             finishAffinity()
         }
 
-        val database = FirebaseDatabase.getInstance()
-        val myRef = database.getReference("message")
+//        val database = FirebaseDatabase.getInstance()
+//        val myRef = database.getReference("message")
+//
+//        myRef.setValue("Hello, World!")
 
-        myRef.setValue("Hello, World!")
     }
 }

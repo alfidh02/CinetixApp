@@ -9,6 +9,7 @@ import android.widget.Toast
 import com.google.firebase.database.*
 import com.koma.cinetixapp.HomeActivity
 import com.koma.cinetixapp.R
+import com.koma.cinetixapp.useracc.register.RegisterActivity
 import com.koma.cinetixapp.utils.Preferences
 import kotlinx.android.synthetic.main.activity_login.*
 
@@ -47,13 +48,19 @@ class LoginActivity : AppCompatActivity() {
 
             if (iUsername.equals("")) {
                 et_username.error = "Username kok kosong?"
-                et_username.requestFocus()
+                et_username.requestFocus() //fokus ke yang error
             } else if (iPassword.equals("")) {
                 et_password.error = "Password kok kosong?"
                 et_password.requestFocus()
             } else {
                 pushLogin(iUsername, iPassword)
             }
+        }
+
+        btn_daftar.setOnClickListener {
+            val intent = Intent(this@LoginActivity,
+                RegisterActivity::class.java)
+            startActivity(intent)
         }
     }
 
@@ -76,11 +83,10 @@ class LoginActivity : AppCompatActivity() {
                         preferences.setValues("saldo", user.saldo.toString())
                         preferences.setValues("status", "1")
 
-                        finishAffinity()
-
                         val intent = Intent(this@LoginActivity,
                             HomeActivity::class.java)
                         startActivity(intent)
+                        finishAffinity()
 
                     } else {
                         Toast.makeText(this@LoginActivity, "Password Anda Salah", Toast.LENGTH_LONG).show()

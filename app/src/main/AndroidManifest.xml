@@ -22,8 +22,8 @@
         <activity android:name=".onboarding.PageTwoActivity" />
         <activity android:name=".onboarding.PageThreeActivity" />
         <activity android:name=".useracc.login.LoginActivity" />
-        <activity android:name=".useracc.RegisterActivity" />
-        <activity android:name=".useracc.RegisterPhotoActivity" />
+        <activity android:name=".useracc.register.RegisterActivity" />
+        <activity android:name=".useracc.register.RegisterPhotoActivity" />
         <activity android:name=".SplashScreen"
             android:theme="@style/SplashTheme">
             <intent-filter>
