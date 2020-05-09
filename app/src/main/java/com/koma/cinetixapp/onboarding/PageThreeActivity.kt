@@ -1,12 +1,14 @@
 package com.koma.cinetixapp.onboarding
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.database.FirebaseDatabase
 import com.koma.cinetixapp.R
 import com.koma.cinetixapp.useracc.LoginActivity
 import kotlinx.android.synthetic.main.activity_page_three.*
+
 
 class PageThreeActivity : AppCompatActivity() {
 
@@ -21,5 +23,10 @@ class PageThreeActivity : AppCompatActivity() {
             startActivity(intent)
             finishAffinity()
         }
+
+        val database = FirebaseDatabase.getInstance()
+        val myRef = database.getReference("message")
+
+        myRef.setValue("Hello, World!")
     }
 }
