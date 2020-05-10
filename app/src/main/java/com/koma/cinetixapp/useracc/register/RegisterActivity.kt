@@ -94,7 +94,6 @@ class RegisterActivity : AppCompatActivity() {
 
                 } else {
                     Toast.makeText(this@RegisterActivity, "User sudah terdaftar", Toast.LENGTH_LONG).show()
-
                 }
             }
 
