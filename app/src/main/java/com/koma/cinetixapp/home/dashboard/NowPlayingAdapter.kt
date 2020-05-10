@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.bagicode.bwamov.home.model.Film
 import com.bumptech.glide.Glide
 import com.koma.cinetixapp.R
+import com.koma.cinetixapp.home.model.Film
 
 class NowPlayingAdapter(private var data: List<Film>,
                         private val listener: (Film) -> Unit)

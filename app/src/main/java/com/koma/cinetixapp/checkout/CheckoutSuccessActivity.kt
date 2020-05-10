@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import android.widget.Toast
 
 import com.koma.cinetixapp.R
 import com.koma.cinetixapp.home.HomeActivity
@@ -27,5 +28,9 @@ class CheckoutSuccessActivity : AppCompatActivity() {
 
         }
 
+    }
+
+    override fun onBackPressed() {
+        Toast.makeText(this,"Terima kasih telah membeli tiket!",Toast.LENGTH_SHORT).show()
     }
 }

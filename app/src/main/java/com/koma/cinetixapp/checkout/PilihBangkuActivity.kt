@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
-import com.bagicode.bwamov.home.model.Film
 import com.koma.cinetixapp.R
 
 import com.koma.cinetixapp.checkout.model.Checkout
+import com.koma.cinetixapp.home.model.Film
 import kotlinx.android.synthetic.main.activity_choose_seat.*
 
 class PilihBangkuActivity : AppCompatActivity() {

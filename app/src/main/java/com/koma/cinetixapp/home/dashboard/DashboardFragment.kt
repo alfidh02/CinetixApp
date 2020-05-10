@@ -9,13 +9,13 @@ import android.view.ViewGroup
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.bagicode.bwamov.home.model.Film
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.google.firebase.database.*
 import com.koma.cinetixapp.DetailActivity
 
 import com.koma.cinetixapp.R
+import com.koma.cinetixapp.home.model.Film
 import com.koma.cinetixapp.utils.Preferences
 import kotlinx.android.synthetic.main.fragment_dashboard.*
 import java.text.NumberFormat

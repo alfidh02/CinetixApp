@@ -1,4 +1,4 @@
-package com.bagicode.bwamov.home.model
+package com.koma.cinetixapp.home.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

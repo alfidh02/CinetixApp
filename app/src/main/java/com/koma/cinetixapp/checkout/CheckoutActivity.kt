@@ -38,12 +38,17 @@ class CheckoutActivity : AppCompatActivity() {
         dataList.add(Checkout("Total Harus Dibayar", total.toString()))
 
         btn_tiket.setOnClickListener {
-            val intent = Intent(this@CheckoutActivity,
+            val intent = Intent(this,
                 CheckoutSuccessActivity::class.java)
             startActivity(intent)
         }
 
+        btn_home.setOnClickListener {
+            finish()
+        }
+
         rc_checkout.layoutManager = LinearLayoutManager(this)
+//        just one adapter.
         rc_checkout.adapter = CheckoutAdapter(dataList) {
         }
 
@@ -53,4 +58,5 @@ class CheckoutActivity : AppCompatActivity() {
             tv_saldo.setText(formatRupiah.format(preferences.getValues("saldo")!!.toDouble()))
         }
     }
+
 }

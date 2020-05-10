@@ -6,11 +6,12 @@ import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.bagicode.bwamov.home.model.Film
+
 import com.bumptech.glide.Glide
 import com.google.firebase.database.*
 import com.koma.cinetixapp.checkout.PilihBangkuActivity
 import com.koma.cinetixapp.home.dashboard.PlaysAdapter
+import com.koma.cinetixapp.home.model.Film
 import com.koma.cinetixapp.home.model.Plays
 import kotlinx.android.synthetic.main.activity_detail.*
 
