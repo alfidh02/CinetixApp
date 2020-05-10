@@ -24,6 +24,7 @@ class RegisterActivity : AppCompatActivity() {
     private lateinit var mDatabase: DatabaseReference
 
     private lateinit var preferences: Preferences
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)

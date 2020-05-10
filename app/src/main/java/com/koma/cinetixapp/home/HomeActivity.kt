@@ -6,6 +6,7 @@ import android.view.WindowManager
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import com.koma.cinetixapp.R
+import com.koma.cinetixapp.home.dashboard.DashboardFragment
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {

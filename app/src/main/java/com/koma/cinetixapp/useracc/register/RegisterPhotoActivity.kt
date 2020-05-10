@@ -76,12 +76,14 @@ class RegisterPhotoActivity : AppCompatActivity() {
 
                         ref.downloadUrl.addOnSuccessListener {
                             preferences.setValues("url", it.toString())
-                        }
 
-                        val intent = Intent(this@RegisterPhotoActivity,
-                            HomeActivity::class.java)
-                        startActivity(intent)
-                        finishAffinity()
+                            val intent = Intent(
+                                this@RegisterPhotoActivity,
+                                HomeActivity::class.java
+                            )
+                            startActivity(intent)
+                            finishAffinity()
+                        }
 
                     }
                     .addOnFailureListener { e ->
