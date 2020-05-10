@@ -34,7 +34,7 @@
             android:drawableStart="@drawable/ic_account_balance_wallet_24px"
             android:drawablePadding="10dp"
             android:fontFamily="@font/montserratlight"
-            android:text="Rp 500.000"
+            tools:text="Rp 500.000"
             android:textColor="@android:color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_nama" />

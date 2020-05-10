@@ -20,6 +20,9 @@
         android:theme="@style/AppTheme.noActionBar">
         <activity android:name=".DetailActivity"></activity>
         <activity android:name=".home.HomeActivity" />
+        <activity android:name=".checkout.PilihBangkuActivity" />
+        <activity android:name=".checkout.CheckoutSuccessActivity" />
+        <activity android:name=".checkout.CheckoutActivity" />
         <activity android:name=".onboarding.PageOneActivity" />
         <activity android:name=".onboarding.PageTwoActivity" />
         <activity android:name=".onboarding.PageThreeActivity" />

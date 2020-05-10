@@ -86,6 +86,7 @@ class RegisterActivity : AppCompatActivity() {
                     preferences.setValues("nama", data.nama.toString())
                     preferences.setValues("user", data.username.toString())
                     preferences.setValues("url", "")
+                    preferences.setValues("saldo", "")
                     preferences.setValues("email", data.email.toString())
                     preferences.setValues("status", "1")
 

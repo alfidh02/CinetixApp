@@ -14,10 +14,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="30dp"
         android:background="@drawable/shape_rectangle_pink"
         android:fontFamily="@font/montserratsemibold"
         android:text="beli tiket"
+        android:visibility="invisible"
         android:textColor="@android:color/background_light"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,7 +53,7 @@
         app:srcCompat="@drawable/ic_arrow_back_white_24dp" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/tv_kursi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -67,12 +68,12 @@
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
-        android:layout_height="150dp"
+        android:layout_height="80dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintTop_toBottomOf="@+id/tv_kursi"
         app:srcCompat="@drawable/path" />
 
     <TextView
@@ -129,9 +130,11 @@
             android:layout_height="match_parent"
             android:layout_marginEnd="20dp"
             android:layout_weight="1"
+            android:id="@+id/a3"
             android:src="@drawable/shape_rectangle_line_old_blue" />
 
         <ImageView
+            android:id="@+id/a4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -242,6 +245,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
@@ -305,7 +309,8 @@
         android:textColor="@android:color/white"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_home"
-        app:layout_constraintStart_toEndOf="@+id/textView19" />
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
 
     <TextView
         android:id="@+id/textView19"
@@ -321,7 +326,8 @@
         android:textColor="@android:color/white"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_home"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
 
     <TextView
         android:id="@+id/textView20"
@@ -337,6 +343,7 @@
         android:textColor="@android:color/white"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_home"
-        app:layout_constraintStart_toEndOf="@+id/textView18" />
+        app:layout_constraintStart_toEndOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
