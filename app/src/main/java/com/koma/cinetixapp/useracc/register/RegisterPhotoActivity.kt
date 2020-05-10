@@ -14,7 +14,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.github.dhaval2404.imagepicker.ImagePicker
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
-import com.koma.cinetixapp.HomeActivity
+import com.koma.cinetixapp.home.HomeActivity
 import com.koma.cinetixapp.R
 import com.koma.cinetixapp.utils.Preferences
 import kotlinx.android.synthetic.main.activity_register_photo.*

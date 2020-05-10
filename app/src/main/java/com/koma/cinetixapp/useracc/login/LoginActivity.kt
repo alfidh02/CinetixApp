@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.view.WindowManager
 import android.widget.Toast
 import com.google.firebase.database.*
-import com.koma.cinetixapp.HomeActivity
+import com.koma.cinetixapp.home.HomeActivity
 import com.koma.cinetixapp.R
 import com.koma.cinetixapp.useracc.register.RegisterActivity
 import com.koma.cinetixapp.utils.Preferences
