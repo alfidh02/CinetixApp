@@ -45,6 +45,7 @@ class CheckoutAdapter(private var data: List<Checkout>,
             tvHarga.setText(formatRupiah.format(data.harga!!.toDouble()))
 
             if (data.kursi!!.startsWith("Total")){
+//                Jika data di Checkout parameter kursi di awal kalimat adalah Total, maka ganti text menjadi :
                 tvTitle.text = data.kursi
                 tvTitle.setCompoundDrawables(null,null,null,null)
             } else {
