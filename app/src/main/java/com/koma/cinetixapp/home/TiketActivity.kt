@@ -1,8 +1,13 @@
 package com.koma.cinetixapp.home
 
+import android.app.Dialog
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.view.Window
 import android.view.WindowManager
+import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 
 import com.bumptech.glide.Glide
@@ -15,6 +20,8 @@ import kotlinx.android.synthetic.main.activity_tiket.*
 class TiketActivity : AppCompatActivity() {
 
     private var dataList = ArrayList<Checkout>()
+    internal lateinit var myDialog : Dialog
+    internal lateinit var cancel_dialog : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,5 +46,25 @@ class TiketActivity : AppCompatActivity() {
         rc_checkout.adapter = TiketAdapter(dataList) {
         }
 
+        iv_barcode.setOnClickListener {
+            ShowDialog()
+        }
+
+    }
+
+    private fun ShowDialog() {
+        myDialog = Dialog(this)
+        myDialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+        myDialog.setContentView(R.layout.dialog_activity)
+
+        myDialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
+
+        cancel_dialog = myDialog.findViewById<View>(R.id.close_dialog) as Button
+        cancel_dialog.isEnabled = true
+        cancel_dialog.setOnClickListener {
+            myDialog.cancel()
+        }
+
+        myDialog.show()
     }
 }

@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:fontFamily="@font/montserratlight"
-        android:text="200 Movie"
+        tools:text="200 Movie"
         android:textColor="@android:color/white"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
