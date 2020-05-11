@@ -20,6 +20,7 @@
         android:theme="@style/AppTheme.noActionBar">
         <activity android:name=".DetailActivity"></activity>
         <activity android:name=".home.HomeActivity" />
+        <activity android:name=".home.TiketActivity" />
         <activity android:name=".checkout.PilihBangkuActivity" />
         <activity android:name=".checkout.CheckoutSuccessActivity" />
         <activity android:name=".checkout.CheckoutActivity" />
