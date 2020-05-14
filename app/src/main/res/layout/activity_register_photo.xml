@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorSplash"
-    tools:context=".onboarding.PageOneActivity">
+    tools:context=".useracc.register.RegisterPhotoActivity">
 
     <Button
         android:id="@+id/btn_home"

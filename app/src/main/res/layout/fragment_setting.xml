@@ -79,6 +79,7 @@
         android:text="My Wallet"
         android:textColor="@android:color/white"
         android:textSize="16sp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_email" />
 
@@ -91,6 +92,7 @@
         android:drawableLeft="@drawable/ic_account_circle_24px"
         android:drawablePadding="10dp"
         android:fontFamily="@font/montserratregular"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
         android:text="Edit Profile"
         android:textColor="@android:color/white"
         android:textSize="16sp"

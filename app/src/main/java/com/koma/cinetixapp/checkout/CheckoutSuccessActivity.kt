@@ -28,6 +28,13 @@ class CheckoutSuccessActivity : AppCompatActivity() {
 
         }
 
+        btn_tiket.setOnClickListener {
+            val intent = Intent(this@CheckoutSuccessActivity,
+                HomeActivity::class.java)
+            startActivity(intent)
+            finishAffinity()
+        }
+
     }
 
     override fun onBackPressed() {
