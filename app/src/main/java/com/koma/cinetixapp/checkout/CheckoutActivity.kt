@@ -49,9 +49,8 @@ class CheckoutActivity : AppCompatActivity() {
 
         btn_tiket.setOnClickListener {
             val intent = Intent(this,
-                CheckoutSuccessActivity::class.java)
+                CheckoutSuccessActivity::class.java).putExtra("datafilm",data)
             startActivity(intent)
-
             showNotif(data)
         }
 

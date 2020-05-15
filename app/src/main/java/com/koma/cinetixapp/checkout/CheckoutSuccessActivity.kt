@@ -8,6 +8,8 @@ import android.widget.Toast
 
 import com.koma.cinetixapp.R
 import com.koma.cinetixapp.home.HomeActivity
+import com.koma.cinetixapp.home.TiketActivity
+import com.koma.cinetixapp.home.model.Film
 import kotlinx.android.synthetic.main.activity_checkout_success.*
 
 
@@ -18,6 +20,8 @@ class CheckoutSuccessActivity : AppCompatActivity() {
         setContentView(R.layout.activity_checkout_success)
 
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
+
+        val datapass = intent.getParcelableExtra<Film>("datafilm")
 
         btn_home.setOnClickListener {
 
@@ -30,7 +34,7 @@ class CheckoutSuccessActivity : AppCompatActivity() {
 
         btn_tiket.setOnClickListener {
             val intent = Intent(this@CheckoutSuccessActivity,
-                HomeActivity::class.java)
+                TiketActivity::class.java).putExtra("data",datapass)
             startActivity(intent)
             finishAffinity()
         }
