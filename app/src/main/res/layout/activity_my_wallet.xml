@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorSplash"
-    tools:context=".onboarding.PageOneActivity">
+    tools:context=".useracc.MyWallet">
 
     <TextView
         android:id="@+id/textView"
@@ -71,9 +71,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView37" />
 
-    <androidx.recyclerview.widget.RecyclerView
+    <Button
+        android:id="@+id/btn_topup"
         android:layout_width="0dp"
-        android:layout_height="491dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_rectangle_pink"
+        android:fontFamily="@font/montserratsemibold"
+        android:text="Top Up Saldo"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_transaksi"
+        android:layout_width="0dp"
+        android:layout_height="567dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
