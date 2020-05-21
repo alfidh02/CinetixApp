@@ -10,9 +10,8 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 
 import com.koma.cinetixapp.R
-import com.koma.cinetixapp.checkout.CheckoutSuccessActivity
 import com.koma.cinetixapp.useracc.EditProfile
-import com.koma.cinetixapp.useracc.MyWallet
+import com.koma.cinetixapp.wallet.MyWallet
 import com.koma.cinetixapp.utils.Preferences
 import kotlinx.android.synthetic.main.fragment_setting.*
 
@@ -54,6 +53,8 @@ class SettingFragment : Fragment() {
             val intent = Intent(context,
                 MyWallet::class.java)
             startActivity(intent)
+//            bisa juga :
+//            startActivity(Intent(activity,MyWallet::class.java))
         }
     }
 
