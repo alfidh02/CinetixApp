@@ -1,5 +1,6 @@
 package com.koma.cinetixapp.wallet
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
@@ -44,7 +45,7 @@ class MyWallet : AppCompatActivity() {
         }
 
         btn_topup.setOnClickListener {
-
+            startActivity(Intent(this,TopUp::class.java))
         }
 
     }

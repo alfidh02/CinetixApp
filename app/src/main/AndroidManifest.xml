@@ -19,7 +19,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.noActionBar">
-        <activity android:name=".wallet.MyWallet"></activity>
+        <activity android:name=".wallet.TopUp"></activity>
+        <activity android:name=".wallet.MyWallet" />
         <activity android:name=".useracc.EditProfile" />
         <activity android:name=".DetailActivity" />
         <activity android:name=".home.HomeActivity" />
