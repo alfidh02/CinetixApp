@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:fontFamily="@font/montserratsemibold"
-        android:text="IDR 500.000.000"
+        android:text="IDR 500.000"
         android:textColor="@android:color/white"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"

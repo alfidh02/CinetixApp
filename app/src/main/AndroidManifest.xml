@@ -20,6 +20,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.noActionBar">
         <activity android:name=".wallet.TopUp"></activity>
+        <activity android:name=".wallet.TopUpSuccessActivity"></activity>
         <activity android:name=".wallet.MyWallet" />
         <activity android:name=".useracc.EditProfile" />
         <activity android:name=".DetailActivity" />
