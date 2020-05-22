@@ -20,6 +20,10 @@ class EditProfile : AppCompatActivity() {
 
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
+        imageView3.setOnClickListener {
+            finish()
+        }
+
         preferences = Preferences(this)
 
         Glide.with(this)

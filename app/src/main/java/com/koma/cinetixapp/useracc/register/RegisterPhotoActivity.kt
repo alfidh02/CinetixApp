@@ -36,6 +36,10 @@ class RegisterPhotoActivity : AppCompatActivity() {
 
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
+        imageView3.setOnClickListener {
+            finish()
+        }
+
         preferences = Preferences(this)
         storage = FirebaseStorage.getInstance();
         storageReference = storage.getReference();

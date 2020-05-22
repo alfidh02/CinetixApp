@@ -20,6 +20,10 @@ class MyWallet : AppCompatActivity() {
 
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
+        imageView3.setOnClickListener {
+            finish()
+        }
+
         dataList.add(
             Wallet("Tenki No Ko",
             "Sabtu 2 Mei, 2020",

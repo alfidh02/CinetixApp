@@ -29,6 +29,10 @@ class TiketActivity : AppCompatActivity() {
 
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
+        imageView3.setOnClickListener {
+            finish()
+        }
+
         val data = intent.getParcelableExtra<Film>("data")
 
         tv_title.text = data.judul

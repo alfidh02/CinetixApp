@@ -30,6 +30,11 @@ class RegisterActivity : AppCompatActivity() {
         setContentView(R.layout.activity_register)
 
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
+
+        imageView3.setOnClickListener {
+            finish()
+        }
+
         mFirebaseInstance = FirebaseDatabase.getInstance()
 //        mDatabase = FirebaseDatabase.getInstance().getReference()
         mFirebaseDatabase = mFirebaseInstance.getReference("User")

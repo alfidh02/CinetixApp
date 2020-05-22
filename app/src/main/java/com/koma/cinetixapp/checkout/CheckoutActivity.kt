@@ -36,6 +36,10 @@ class CheckoutActivity : AppCompatActivity() {
 
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
+        imageView3.setOnClickListener {
+            finish()
+        }
+
         preferences = Preferences(this)
         dataList = intent.getSerializableExtra("data") as ArrayList<Checkout>
         val data = intent.getParcelableExtra<Film>("datas")

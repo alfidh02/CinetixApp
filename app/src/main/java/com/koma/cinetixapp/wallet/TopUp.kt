@@ -24,6 +24,10 @@ class TopUp : AppCompatActivity() {
 
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
+        imageView3.setOnClickListener {
+            finish()
+        }
+
         btn_topup.setOnClickListener {
             startActivity(Intent(this,TopUpSuccessActivity::class.java))
         }
