@@ -42,6 +42,6 @@ class TopUpSuccessActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        Toast.makeText(this,"Terima kasih telah membeli tiket!",Toast.LENGTH_SHORT).show()
+        Toast.makeText(this,"Terima kasih telah mengisi saldo! Harap tunggu ya.",Toast.LENGTH_SHORT).show()
     }
 }
