@@ -39,14 +39,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
+        android:textSize="16sp"
         android:fontFamily="@font/montserratregular"
-        android:text="2,409 Movies"
+        tools:text="2,409 Movies"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_history"
         android:layout_width="0dp"
         android:layout_height="491dp"
         android:layout_marginStart="16dp"

@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.database.*
+import com.koma.cinetixapp.HistoryActivity
 
 import com.koma.cinetixapp.R
 import com.koma.cinetixapp.home.dashboard.ComingSoonAdapter
@@ -43,6 +44,9 @@ class TiketFragment : Fragment() {
         rc_tiket.layoutManager = LinearLayoutManager(context!!.applicationContext)
         getData()
 
+        iv_history.setOnClickListener {
+            startActivity(Intent(context,HistoryActivity::class.java))
+        }
     }
 
     private fun getData() {
@@ -57,7 +61,7 @@ class TiketFragment : Fragment() {
                 }
 
                 rc_tiket.adapter = ComingSoonAdapter(dataList) {
-                    val intent = Intent(context,
+                    val intent= Intent(context,
                         TiketActivity::class.java).putExtra("data", it)
                     startActivity(intent)
                 }
