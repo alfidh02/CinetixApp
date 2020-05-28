@@ -1,0 +1,78 @@
+{
+  "Film" : {
+    "Avengers" : {
+      "desc" : "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+      "director" : "Joss Whedon",
+      "genre" : "Action, Adventure",
+      "judul" : "Avengers",
+      "play" : {
+        "Ariel" : {
+          "nama" : "Ariel",
+          "url" : "https://m.media-amazon.com/images/M/MV5BMTM4MTE0NTkzMV5BMl5BanBnXkFtZTcwODEwNDU0OQ@@._V1_SY1000_CR0,0,666,1000_AL_.jpg"
+        }
+      },
+      "poster" : "https://upload.wikimedia.org/wikipedia/id/f/f9/TheAvengers2012Poster.jpg",
+      "rating" : "8.5"
+    },
+    "Frozen" : {
+      "desc" : "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
+      "director" : "Chris Buck, Jennifer Lee",
+      "genre" : "Comedy",
+      "judul" : "Frozen",
+      "play" : {
+        "Thomas" : {
+          "nama" : "Thomas",
+          "url" : "https://m.media-amazon.com/images/M/MV5BMTM4MTE0NTkzMV5BMl5BanBnXkFtZTcwODEwNDU0OQ@@._V1_SY1000_CR0,0,666,1000_AL_.jpg"
+        }
+      },
+      "poster" : "https://m.media-amazon.com/images/M/MV5BMjA0YjYyZGMtN2U0Ni00YmY4LWJkZTItYTMyMjY3NGYyMTJkXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_SY1000_SX675_AL_.jpg",
+      "rating" : "7.3"
+    },
+    "Hustlers" : {
+      "desc" : "Inspired by the viral New York Magazine article, Hustlers follows a crew of savvy former strip club employees who band together to turn the tables on their Wall Street clients.",
+      "director" : "Lorene Scafaria",
+      "genre" : "Crime",
+      "judul" : "Hustlers",
+      "play" : {
+        "Ariel" : {
+          "nama" : "Ariel",
+          "url" : "https://m.media-amazon.com/images/M/MV5BMTM4MTE0NTkzMV5BMl5BanBnXkFtZTcwODEwNDU0OQ@@._V1_SY1000_CR0,0,666,1000_AL_.jpg"
+        }
+      },
+      "poster" : "https://m.media-amazon.com/images/M/MV5BNjM5ZTNiNGMtMDA2OC00MDYyLWEyNzAtOWZmMzFlY2VmOWM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
+      "rating" : "6.9"
+    },
+    "Midway" : {
+      "desc" : "The story of the Battle of Midway, told by the leaders and the sailors who fought it.",
+      "director" : "Roland Emmerich",
+      "genre" : "Action",
+      "judul" : "Midway",
+      "play" : {
+        "Thomas" : {
+          "nama" : "Thomas",
+          "url" : "https://m.media-amazon.com/images/M/MV5BMTM4MTE0NTkzMV5BMl5BanBnXkFtZTcwODEwNDU0OQ@@._V1_SY1000_CR0,0,666,1000_AL_.jpg"
+        }
+      },
+      "poster" : "https://m.media-amazon.com/images/M/MV5BMGVkNGMyMGEtMDNmOC00ZGYyLWEzOTItODdjMzRlZTk4MzUwXkEyXkFqcGdeQXVyODM2Njg2OTg@._V1_SY1000_SX800_AL_.jpg",
+      "rating" : "6.9"
+    }
+  },
+  "User" : {
+    "alfi262" : {
+      "email" : "alfidarmawan79@gmail.com",
+      "nama" : "Alfi Dharmawan",
+      "password" : "123",
+      "saldo" : "500000",
+      "url" : "https://firebasestorage.googleapis.com/v0/b/cinetixapp-68e8d.appspot.com/o/images%2F22b2f7d9-55b3-4888-bd1f-46a7a895a960?alt=media&token=6de0269c-8189-4cd4-abb5-010a2c9717c5",
+      "username" : "alfi262"
+    },
+    "lakad123" : {
+      "email" : "tryhardtommr@gmail.com",
+      "nama" : "Fulan",
+      "password" : "456",
+      "saldo" : "400000",
+      "url" : "",
+      "username" : "lakad123"
+    }
+  }
+}
