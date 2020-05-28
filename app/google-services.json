@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "48275355539",
+    "firebase_url": "https://cinetixapp-68e8d.firebaseio.com",
+    "project_id": "cinetixapp-68e8d",
+    "storage_bucket": "cinetixapp-68e8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48275355539:android:772c954c83400de339da66",
+        "android_client_info": {
+          "package_name": "com.koma.cinetixapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48275355539-ksiudu483so95e9hhs1c580342ntb1qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.koma.cinetixapp",
+            "certificate_hash": "c0836dac30eeb63cdd055c56ac449e74e303df8e"
+          }
+        },
+        {
+          "client_id": "48275355539-ohh0uvnp6jfgoprf0svajcnke2ug5iip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjW9mQbRr6ajcymuU_h-bBZRuH_R3Ir4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48275355539-ohh0uvnp6jfgoprf0svajcnke2ug5iip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
