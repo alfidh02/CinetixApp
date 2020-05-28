@@ -6,7 +6,7 @@ Cinetix, aplikasi yang memudahkan kamu menonton film favorit.
 - My wallet
 - Top up wallet
 ### Catatan :
-Untuk mempermudah, silahkan download file json di folder json_file untuk diletakkan di projek Firebase yang telah disesuaikan dengan projek Android.
+Untuk mempermudah, silahkan download file json di folder **json_file** untuk diletakkan di projek Firebase yang telah disesuaikan dengan projek Android. Lalu import file json tadi ke dalam projek Firebase.
 ### Screenshots : 
 | | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
