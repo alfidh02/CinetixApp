@@ -10,3 +10,6 @@ Untuk mempermudah, silahkan download file json di folder **json_file** untuk dil
 | | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="1604" alt="intro" src="https://github.com/alfidh02/CinetixApp/blob/master/screenshots/splash.png">  Intro | <img width="1604" alt="dashboard" src="https://github.com/alfidh02/CinetixApp/blob/master/screenshots/dashboard.png"> Dashboard | <img width="1604" alt="dashboard" src="https://github.com/alfidh02/CinetixApp/blob/master/screenshots/ticket.png"> Ticket | <img width="1604" alt="dashboard" src="https://github.com/alfidh02/CinetixApp/blob/master/screenshots/detailticket.png"> Detail Ticket |
+
+Created by :
+Alfi Dharmawan
