@@ -1,5 +1,6 @@
 package com.koma.cinetixapp.useracc.register
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.ProgressDialog
 import android.content.Intent
@@ -29,7 +30,7 @@ class RegisterPhotoActivity : AppCompatActivity() {
     lateinit var storageReference: StorageReference
     lateinit var preferences: Preferences
 
-
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register_photo)

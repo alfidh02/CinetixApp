@@ -15,6 +15,7 @@ import com.google.firebase.database.*
 import com.koma.cinetixapp.DetailActivity
 
 import com.koma.cinetixapp.R
+import com.koma.cinetixapp.home.HomeActivity
 import com.koma.cinetixapp.home.model.Film
 import com.koma.cinetixapp.utils.Preferences
 import kotlinx.android.synthetic.main.fragment_dashboard.*
@@ -49,6 +50,10 @@ class DashboardFragment : Fragment() {
         tv_nama.setText(preferences.getValues("nama"))
         if (!preferences.getValues("saldo").equals("")){
             currency(preferences.getValues("saldo")!!.toDouble(), tv_saldo)
+        }
+
+        iv_profile.setOnClickListener {
+
         }
 
         Glide.with(this)

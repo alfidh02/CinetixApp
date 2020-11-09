@@ -45,7 +45,6 @@ class HomeActivity : AppCompatActivity() {
             changeIcon(iv_menu3, R.drawable.ic_profile_active)
         }
 
-
         setFragment(fragmentHome)
     }
 

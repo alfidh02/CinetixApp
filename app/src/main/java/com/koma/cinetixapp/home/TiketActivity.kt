@@ -51,12 +51,12 @@ class TiketActivity : AppCompatActivity() {
         }
 
         iv_barcode.setOnClickListener {
-            ShowDialog()
+            showDialog()
         }
 
     }
 
-    private fun ShowDialog() {
+    private fun showDialog() {
         myDialog = Dialog(this)
         myDialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
         myDialog.setContentView(R.layout.dialog_activity)
