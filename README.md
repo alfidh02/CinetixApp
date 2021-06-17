@@ -1,5 +1,16 @@
-# CinetixApp
-Cinetix, aplikasi yang memudahkan kamu menonton film favorit. 
+<br />
+<p align="center">
+  <a href="#">
+    <img src="screenshots/Cover Cinetix.png" alt="Cinetix">
+  </a>
+  
+  <h1 align="center">CinetixApp</h1>
+
+  <p align="center">
+    Cinetix, aplikasi yang memudahkan kamu menonton film favorit. 
+  </p>
+</p>
+
 ### Fitur-fitur :
 - Pilih bangku bioskop
 - Beli tiket
